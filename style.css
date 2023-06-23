@@ -1086,7 +1086,7 @@ a{
       }
 
       .link-box.active{
-        max-height: 200px;
+        max-height: 300px;
         opacity: 1;
       }
 
