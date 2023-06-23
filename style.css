@@ -966,20 +966,21 @@ a{
     flex-direction: row;
     gap: 5px;
     border-radius: 0;
+    align-items: flex-start;
   }
 
   .side-img{
-    width: 125px;
+    width: 135px;
     border-radius: 0;
   }
 
   .large-img-wrapper{
-    width: 390px;
+    width: 414px;
   }
 
   .large-image img{
     border-radius: 0;
-    width: 390px;
+    width: 414px;
   }
 
   .large-image .nav-btn i{
@@ -1043,14 +1044,13 @@ a{
   }
 
   .footer-x-row{
-    flex-direction: column;
+    flex-direction: column-reverse;
     padding-inline: 2rem;
+    align-items: flex-start;
   }
   
   .footer-x-row .left-footer{
     flex-direction: column;
-    justify-content: flex-start;
-    align-items: flex-start;
     margin-bottom: 2rem;
   }
 
